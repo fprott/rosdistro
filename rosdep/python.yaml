@@ -3826,7 +3826,7 @@ python-shapely:
     pip:
       packages: [shapely]
   ubuntu:
-    '*': [python-shapely]
+    pip: [python-shapely]
 python-simplejson:
   arch: [python2-simplejson]
   debian: [python-simplejson]
